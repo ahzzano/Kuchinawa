@@ -24,7 +24,7 @@ public class InGameHUDMixin {
 
         MinecraftClient client = MinecraftClient.getInstance();
 
-        // Draw Logo
+        // Draw Client
         renderer.draw(matrices, "Kuchinawa v1.0.0", 2f, 2f, 0xffffff);
 
     }

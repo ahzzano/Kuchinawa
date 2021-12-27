@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.ahzzan.kuchinawa.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "KuchinawaMixin",
+    "InGameHUDMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

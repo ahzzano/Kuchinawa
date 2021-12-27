@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "kuchinawa",
+  "version": "${version}",
+
+  "name": "Kuchinawa",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "ahzzan"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/kuchinawa/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ahzzan.kuchinawa.Kuchinawa"
+    ]
+  },
+  "mixins": [
+    "kuchinawa.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
